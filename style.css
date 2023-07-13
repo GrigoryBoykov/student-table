@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.add-container {
+  padding-top: 30px;
+}
+
+.form-label {
+  font-size: 13px;
+}
+
+.app-container {
+  padding-top: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__item {
+  width: 15.66%;
+}
+
+.filter__item {
+  width: 25%;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.error .form-control {
+  border: 1px solid red;
+}
+
+.error-label {
+  color: red;
+  line-height: 20px;
+}
+
+.sort-button {
+  cursor: pointer;
+}
+
+.thCenter {
+  vertical-align: middle;
+}
